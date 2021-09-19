@@ -10,7 +10,6 @@ public class DecisionStructures {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
         String number;
         System.out.println("Welcome to the unhelpful menu!");
@@ -50,16 +49,10 @@ public class DecisionStructures {
             {
                 System.out.println("Try again if you want help!");
             }
-
-
-
-
-
-
-
+            else
+            {
+                System.out.println("You did not enter any of the options above!");
+            }
         } while(parsedString <= 0);
-
-
     }
-
 }
