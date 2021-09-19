@@ -14,7 +14,7 @@ public class DecisionStructures {
         Scanner input = new Scanner(System.in);
         String number;
         System.out.println("Welcome to the unhelpful menu!");
-        System.out.println("Enter any number between 1 and 8 to get feedback");
+        System.out.println("Enter any number between 1 and 5 to get feedback!");
         int parsedString;
         do
         {
@@ -22,7 +22,7 @@ public class DecisionStructures {
             while(!input.hasNextInt())
             {
                 System.out.println("That is not a number!");
-                // Takes input from user IF the user tyes in a character or string it will go back through the loop!
+                // Takes input from user IF the user types in a character or string it will go back through the loop!
                 number = input.next();
 
             }
